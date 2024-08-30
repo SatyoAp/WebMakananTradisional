@@ -166,6 +166,10 @@
   color: white;
   transition: all 0, 3s ease-in-out;
 }
+.hero .box-hero .profil:nth-child(1) button a {
+  color: white;
+  text-decoration: none;
+}
 
 .hero .box-hero .profil:nth-child(1) .btn1:hover {
   background-color: #053335;
@@ -542,9 +546,16 @@ footer p {
     padding: 10px 30px 10px 30px;
   }
   .about .box-about .gambar p {
+    text-align: justify;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     padding: 20px 20px 20px 20px;
+  }
+  .about .box-about .tentang p {
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 30px 3%;
   }
 
   /* ---- Skill ---*/
