@@ -186,10 +186,10 @@
   padding-top: 80px;
 }
 .about .box-about .tentang p {
-  text-align: center;
+  text-align: justify;
   color: whitesmoke;
   font-size: 16px;
-  margin-top: 20px;
+  margin: 30px 100px;
 }
 .about .box-about .gambar p {
   color: white;
@@ -255,8 +255,16 @@
   padding-bottom: 70px;
   background-color: #1b55b9;
 }
+.box {
+  gap: 10px;
+}
 .box h1 {
   color: white;
+}
+.box h4 {
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }
 .project .box-project {
   display: grid;
@@ -318,11 +326,19 @@
   place-items: center;
   padding: 25px 5%;
 }
+.dash6-container img {
+  width: 25px;
+  height: auto;
+  border-radius: 100%;
+}
 .dash6-container .kontak-kami {
   padding-top: 20px;
   height: auto;
   margin-bottom: 50px;
   width: 100%;
+}
+.dash6-container .left {
+  row-gap: 30px;
 }
 .dash6-container .left h1 {
   font-size: 20px;
@@ -340,6 +356,8 @@
 .kontak {
   display: flex;
   flex-direction: row;
+  gap: 20px;
+  cursor: pointer;
 }
 .form-group {
   margin-bottom: 15px;
@@ -584,6 +602,14 @@ footer p {
     transform-origin: bottom;
     opacity: 0;
     transition: all 0.2s ease;
+  }
+
+  .dash6-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    place-items: center;
+    padding: 25px 5%;
   }
 
   /* Style Lightbox */
