@@ -330,6 +330,11 @@
   place-items: center;
   padding: 25px 5%;
 }
+#contact h1 {
+  text-align: center;
+  padding: 80px 5% 10px 5%;
+  text-decoration-line: underline;
+}
 .dash6-container img {
   width: 25px;
   height: auto;
